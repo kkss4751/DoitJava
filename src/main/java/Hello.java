@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
-public class Hello{
-    public static void main(String[] args){
+public class Hello {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        int b = 0;
-        while ( b < a) {
-            b++;
-            System.out.println("*");
+        int b = sc.nextInt();
+        int c = 0;
+
+        for (int i = a ; i <= b ; i ++){
+            if (i % 3 == 0 ){
+                c = c + i;
+            }
         }
+        System.out.println(c);
     }
 }

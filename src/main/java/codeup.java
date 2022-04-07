@@ -16,5 +16,17 @@ public class Hello{
     }
 }
 ``````````````````````````````````````````````````````````````````````
-
+ Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = 0;
+        while ( b < a) {
+            b++;
+            System.out.println("*");
+        }
+    }
  */
+public class codeup {
+    public static void main(String[] args) {
+
+    }
+}
